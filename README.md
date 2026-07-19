@@ -26,21 +26,21 @@ Use provided notebooks (analysis/notebooks/) for trend analysis and recommendati
 Factors Influencing Consumption
 #Content relevance (genres, trending shows).
 
-#Timing (weekends, evenings, holidays).
+-Timing (weekends, evenings, holidays).
 
-#Accessibility (device compatibility, streaming quality).
+-Accessibility (device compatibility, streaming quality).
 
-#Marketing & awareness (social media buzz, promotions).
+-Marketing & awareness (social media buzz, promotions).
 
-#User experience (recommendation engine, ease of navigation).
+-User experience (recommendation engine, ease of navigation).
 
-#Content Recommendations for Low-Consumption Days
-Short-form content (clips, highlights).
+Content Recommendations for Low-Consumption Days
+-Short-form content (clips, highlights).
 
-Family-friendly or comedy shows midweek.
-Exclusive premieres or live events.
+-Family-friendly or comedy shows midweek.
+-Exclusive premieres or live events.
 
-Personalized recommendations to re-engage inactive users.
+-Personalized recommendations to re-engage inactive users.
 
 Initiatives to Grow User Base
 Referral programs.
