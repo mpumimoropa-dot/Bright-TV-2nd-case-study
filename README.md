@@ -1,67 +1,103 @@
 # Bright-TV-2nd-case-study
-
+BrightTV Viewership Analysis Project
 📌 Project Overview
-This project analyzes user and usage trends of BrightTV to uncover consumption behavior, content performance, and strategies for subscription growth. The system uses Databricks for data integration and analytics.
+This project provides insights into user and usage trends of BrightTV, focusing on consumption behavior, content performance, and strategies to grow the platform’s subscription base. Using Databricks for data integration and analytics, the project aims to deliver actionable recommendations for leadership.
 
 🎯 Objectives
-Provide insights into user engagement and usage trends.
+Analyze user engagement and usage trends across devices, time periods, and content categories.
 
-Identify factors influencing consumption.
+Identify factors influencing consumption patterns.
 
-Recommend content strategies for low-consumption days.
+Recommend content strategies to increase viewership on low-consumption days.
 
-Suggest initiatives to grow BrightTV’s user base.
+Propose initiatives to expand BrightTV’s user base and boost subscriptions for the financial year.
 
+🔍 Data Analysis Workflow
+Data Integration (Databricks)
 
-🚀 Usage
-Run the data integration pipeline in Databricks to ingest and clean viewership logs.
+Ingest raw viewership logs (timestamps, user IDs, device types, content IDs).
 
-Execute SQL queries in analysis/sql_queries.sql to generate user and content insights.
+Clean and transform data to remove duplicates and handle missing values.
 
-Export results to CSV/Excel for visualization.
+Build analytical tables:
 
-Use provided notebooks (analysis/notebooks/) for trend analysis and recommendations.
+User Engagement Table → sessions, watch time, frequency.
 
-🔍 Key Insights
-Factors Influencing Consumption
-#Content relevance (genres, trending shows).
+Content Performance Table → views, completion rates, peak times.
 
--Timing (weekends, evenings, holidays).
+Trend Table → daily/weekly/monthly consumption patterns.
 
--Accessibility (device compatibility, streaming quality).
+Analysis Dimensions
 
--Marketing & awareness (social media buzz, promotions).
+User Trends → active users, retention, session duration.
 
--User experience (recommendation engine, ease of navigation).
+Usage Trends → peak vs low consumption days, device usage, time-of-day analysis.
 
-Content Recommendations for Low-Consumption Days
--Short-form content (clips, highlights).
+Content Trends → genre performance, completion rates, seasonal spikes.
 
--Family-friendly or comedy shows midweek.
--Exclusive premieres or live events.
+📈 Factors Influencing Consumption
+Content relevance (popular genres, trending shows).
 
--Personalized recommendations to re-engage inactive users.
+Timing (weekends, evenings, holidays).
 
-Initiatives to Grow User Base
-Referral programs.
+Accessibility (device compatibility, streaming quality).
 
-Tiered subscription bundles.
+Marketing & awareness (social media buzz, promotions).
 
-Localized/regional content.
+User experience (recommendation engine, ease of navigation).
 
-Cross-platform partnerships (telecom/device bundles).
+🎬 Content Recommendations for Low-Consumption Days
+Introduce short-form content (clips, highlights) during weekdays.
 
-Gamification (badges, streaks, loyalty rewards).
+Promote family-friendly or comedy shows midweek evenings.
 
-Social media integration.
+Schedule exclusive premieres or live events on low-traffic days.
 
-📊 Final Recommendation to CEO
+Enhance personalized recommendations to re-engage inactive users.
+
+🚀 Initiatives to Grow User Base
+Referral programs → incentivize users to invite friends.
+
+Tiered subscription bundles → affordable entry-level plans.
+
+Localized content → regional shows and language-specific programming.
+
+Cross-platform partnerships → telecom bundles, device pre-installs.
+
+Gamification → badges, watch streaks, loyalty rewards.
+
+Social media integration → shareable clips, trending hashtags.
+
+📊 Final Recommendation to the CEO
 BrightTV should leverage Databricks analytics to drive a data-informed growth strategy:
 
-Short-term (3–6 months): Optimize scheduling, launch referral campaigns, improve personalization.
+Short-term (3–6 months):
 
-Long-term (financial year): Expand localized/exclusive content, introduce flexible subscription tiers, invest in partnerships.
+Optimize content scheduling to boost weekday engagement.
+
+Launch referral and promotional campaigns.
+
+Improve personalization with AI-driven recommendations.
+
+Long-term (financial year):
+
+Expand localized and exclusive content offerings.
+
+Introduce flexible subscription tiers.
+
+Invest in partnerships to widen reach.
 
 👉 CEO Takeaway:  
-BrightTV can increase engagement, reduce churn, and grow subscriptions by 20–30% over the financial year by combining data insights with targeted content and user initiatives.
+By combining data insights with targeted content and user initiatives, BrightTV can increase daily engagement, reduce churn, and grow subscriptions by 20–30% over the financial year.
+
+
+
+
+
+
+
+
+
+
+
 
