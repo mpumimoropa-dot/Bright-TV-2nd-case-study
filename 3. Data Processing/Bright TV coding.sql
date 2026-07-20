@@ -195,4 +195,58 @@ FROM viewership AS A
 LEFT JOIN user_profiles AS B 
     ON A.userid = B.userid;
 
+    ---------------------------------------------------------------------------------------
+--EXPLORING VIEWERSHIP DATA
+
+---CHECKING THE COLUMNS IN THE TABLE
+SELECT*
+FROM bright_tv.data.viewership;
+
+---ANALSING THE INFO
+SELECT*
+FROM bright_tv.data.viewership
+WHERE UserID0 IS NULL;
+
+to try this 
+
+FROM viewership AS A 
+LEFT JOIN user_profiles AS B 
+ON A.userid=B.userid;
+
+    SELECT COUNT(*) 
+FROM brightlearn.data.tv_user_profile
+WHERE gender=' ';
+
+---Dataset coverage, to see number of users , number of channels , total records and time frame
+SELECT 
+    MIN(RecordDate2) AS start_period,
+    MAX(RecordDate2) AS end_period,
+    COUNT(DISTINCT UserID0) AS total_users,
+    COUNT(DISTINCT Channel2) AS total_channels,
+    COUNT(*) AS total_records
+FROM bright_tv.data.viewership;
+
+--groupby  month to see the coverage trends over time
+SELECT 
+    DATE_FORMAT(RecordDate2, 'yyyy-MM') AS month_id,
+    COUNT(DISTINCT UserID0) AS users,
+    COUNT(DISTINCT Channel2) AS channels,
+    COUNT(*) AS records
+FROM bright_tv.data.viewership
+GROUP BY DATE_FORMAT(RecordDate2, 'yyyy-MM')
+ORDER BY month_id;
+
+---to show quater and year coverage
+SELECT 
+    YEAR(RecordDate2) AS year_id,
+    QUARTER(RecordDate2) AS quarter_id,
+    COUNT(DISTINCT UserID0) AS users,
+    COUNT(DISTINCT Channel2) AS channels,
+    COUNT(*) AS records
+FROM bright_tv.data.viewership
+GROUP BY YEAR(RecordDate2), QUARTER(RecordDate2)
+ORDER BY year_id, quarter_id;
+
+
+
 
